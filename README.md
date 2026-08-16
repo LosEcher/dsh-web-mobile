@@ -88,3 +88,15 @@ pnpm build
 ## License
 
 [MIT](LICENSE)
+
+---
+
+## Fork note（LosEcher fork）
+
+本仓库为 [mexiaosqwq/dsh-web-mobile](https://github.com/mexiaosqwq/dsh-web-mobile) 的 fork（保留 upstream remote），
+供本地自用并回馈上游。当前 fork 与上游差异：
+
+- 无功能改动（上游 v0.2.0 已符合 DSH 插件标准：令牌全在白名单、槽位与当前 harness 契约匹配、tsconfig jsx=react-jsx、locale 齐全）；
+- 验证记录：web profile 安装后 `include:dsh-mobile-nav` active；窄屏 347px 下 grid 变 `1fr 0 0`（会话全宽）、「打开目录」抽屉按钮 + shell.overlay 抽屉 + 会话列表正常；桌面视口零影响。
+
+与 [dsh-mobile](../dsh-mobile)（网络一键接入）互补：本插件管**布局**，dsh-mobile 管**接入**。

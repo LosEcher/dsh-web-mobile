@@ -4,3 +4,4 @@
 - insert:
     - id: dsh-mobile-nav
       name: '@dsh-external/dsh-mobile-nav'
+      config: {}
